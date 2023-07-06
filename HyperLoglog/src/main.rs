@@ -1,5 +1,7 @@
 mod add_lib;
 
+mod hyperloglog_lib;
+
 fn main() {
     use add_lib::internal::*;
     println!("{}",add(5,2));
